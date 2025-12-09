@@ -1,0 +1,181 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Page-1" id="XEob55rHas_lWzjX8Q5-">
+    <mxGraphModel dx="1025" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-7" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Athlete&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;ATHLETE_ID: integer&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;JERSEY_NO: integer&lt;br&gt;HEIGHT: integer&lt;br&gt;HOMETOWN: varchar(30)&lt;br&gt;PREV_SCHOOL: varchar(30)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="675" y="290" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-9" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;College&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;COLLEGE_ID: integer&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;COLLEGE_NAME: varchar(50)&lt;br&gt;GRAD_RATE: integer&lt;br&gt;TUITION: integer&lt;br&gt;STUD_FAC_RATIO: varchar(5)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="360" y="485" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-11" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Address&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;ADDRESS_ID: integer&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;table style=&quot;font-size: 1em; width: 180px;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;STREET: varchar(40)&lt;br&gt;CITY: varchar(20)&lt;br&gt;STATE: char(2)&lt;br&gt;ZIPCODE: varchar(20)&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="680" y="690" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-12" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Student&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;STUDENT_ID: integer&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;FIRST_NAME: varchar(30)&lt;br&gt;LAST_NAME: varchar(30)&lt;br&gt;CLASS_YEAR: varchar(8)&lt;br&gt;HOUSING: varchar(15)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="50" y="290" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-13" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;College Student&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;STUDENT_ID: integer&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK2&lt;/td&gt;&lt;td&gt;COLLEGE_ID: integer&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="55" y="505" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-14" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;College Athlete&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;ATHLETE_ID: integer&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK2&lt;/td&gt;&lt;td&gt;COLLEGE_ID: integer&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="680" y="505" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-15" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Student Athlete&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;STUDENT_ID: integer&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK2&lt;/td&gt;&lt;td&gt;ATHLETE_ID: integer&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="375" y="305" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-16" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;College Address&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;ADDRESS_ID: integer&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK2&lt;/td&gt;&lt;td&gt;COLLEGE_ID: integer&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="375" y="705" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-18" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="PVDgVOqf9xMwdxLVAz8e-13" target="PVDgVOqf9xMwdxLVAz8e-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="470" as="sourcePoint" />
+            <mxPoint x="170" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="PVDgVOqf9xMwdxLVAz8e-13" target="PVDgVOqf9xMwdxLVAz8e-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="590" as="sourcePoint" />
+            <mxPoint x="360" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="PVDgVOqf9xMwdxLVAz8e-12" target="PVDgVOqf9xMwdxLVAz8e-15" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="245" y="422" as="sourcePoint" />
+            <mxPoint x="370" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-21" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="PVDgVOqf9xMwdxLVAz8e-15" target="PVDgVOqf9xMwdxLVAz8e-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="432" as="sourcePoint" />
+            <mxPoint x="715" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="PVDgVOqf9xMwdxLVAz8e-7" target="PVDgVOqf9xMwdxLVAz8e-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="452" as="sourcePoint" />
+            <mxPoint x="755" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-23" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="PVDgVOqf9xMwdxLVAz8e-9" target="PVDgVOqf9xMwdxLVAz8e-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="622" as="sourcePoint" />
+            <mxPoint x="755" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="PVDgVOqf9xMwdxLVAz8e-9" target="PVDgVOqf9xMwdxLVAz8e-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="692" as="sourcePoint" />
+            <mxPoint x="745" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-25" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="PVDgVOqf9xMwdxLVAz8e-16" target="PVDgVOqf9xMwdxLVAz8e-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="742" as="sourcePoint" />
+            <mxPoint x="715" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-28" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="555" y="320" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-30" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="645" y="320" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-32" value="0..1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="345" y="320" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-33" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="240" y="320" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-35" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="145" y="410" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-37" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="145" y="475" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-38" value="1..*" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="235" y="520" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-39" value="0..*" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="650" y="520" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-41" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="570" y="520" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-42" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="520" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-43" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="740" y="410" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-44" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="740" y="475" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-47" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="650" y="720" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-48" value="0..1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="555" y="720" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-49" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="466" y="675" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-50" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="466" y="615" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-51" value="Represents attributes of a student" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="70" y="260" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-53" value="Represents the relation between a student and an athlete" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="370" y="275" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-54" value="Represents attributes of an ahtlete" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="695" y="260" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-55" value="Represents attributes of a college" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="390" y="455" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-56" value="Represents the relation between a college and a student" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="595" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-57" value="Represents the relation between a college and an athlete" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="675" y="595" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-58" value="Represents the relation between a college and an address" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="375" y="795" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PVDgVOqf9xMwdxLVAz8e-59" value="Represents attributes of an address" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="695" y="810" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xsheC513aAWu3YlNHyrY-4" value="This Entity Relationship Diagram shows the many associations a college can have. To start simple, every college needs students, so the College Class and Student Class are associated through the College Student Associative Table as a College can have one or many students in relation to a College, and a Student can only have one College in relation to it, as a student cannot attend multiple colleges simultaneously. Most colleges have athletes, so the College Class and Athlete Class could be assoicated through the College Athlete Associative Table as a College can have zero or many athletes in relation to a College, and an Athlete can only have one College in relation to it, as an athlete cannot represent multiple colleges as an athlete simultaneously. Some students are athletes, so the Student Class and Athlete Class could be associated through the Student Athlete Associative Table as some students are a student athlete, however not all students are athletes. A college needs an address, so the College Class and Address Class are associated through the College Address Associative Table as a College needs an Address, however not all Addresses are College Addresses so the relation of Address to College Address is 0 or 1." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="90" width="670" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="xsheC513aAWu3YlNHyrY-5" value="could be a" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="277" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xsheC513aAWu3YlNHyrY-6" value="is a" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="588" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xsheC513aAWu3YlNHyrY-8" value="has" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xsheC513aAWu3YlNHyrY-9" value="could have" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="598" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xsheC513aAWu3YlNHyrY-10" value="is a" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="145" y="444" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xsheC513aAWu3YlNHyrY-11" value="is a" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xsheC513aAWu3YlNHyrY-12" value="could be a" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="585" y="720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xsheC513aAWu3YlNHyrY-13" value="has a" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="466" y="645" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
