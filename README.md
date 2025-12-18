@@ -2,6 +2,7 @@
 A collection of my assignments in CISC240 - Building Tomorrow's Software, from my Fall 2024 semester at Hartwick College. These are the first Python programs I've developed that benefitted my understanding of principles of software engineering, using concepts of algorithms, data structures, object-oriented programming, and functional programming.
 
 Dates of First Versions of Submitted Assignments:
+process_flowchart-locker_room_routine 9.4.25
 entity_relationship_diagram-hartwick_college_relationships 9.11.25
 class_model-customer-order-diagram 9.18.25
 help_desk_ticket_lifecycle 9.25.25
